@@ -235,13 +235,13 @@ export default function Home() {
                   
                   <div className="grid grid-cols-2 gap-4 pt-2">
                     <div className="text-center">
-                      <p className="text-sm font-medium">Today's High</p>
+                      <p className="text-sm font-medium">Today&apos;s High</p>
                       <p className="text-lg font-semibold">
-                        {Math.round(weatherData.daily.temperature_2m_max[0])}°C
+                        {Math.round(weatherData.daily.temperature_2m_max[0])}&deg;C
                       </p>
                     </div>
                     <div className="text-center">
-                      <p className="text-sm font-medium">Today's Low</p>
+                      <p className="text-sm font-medium">Today&apos;s Low</p>
                       <p className="text-lg font-semibold">
                         {Math.round(weatherData.daily.temperature_2m_min[0])}°C
                       </p>
