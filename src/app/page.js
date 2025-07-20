@@ -336,7 +336,7 @@ export default function Home() {
         <Card>
           <CardContent className="py-8 text-center">
             <p className="text-muted-foreground">
-              No locations found for "{searchQuery}". Try a different search term.
+              No locations found for &quot;{searchQuery}&quot;. Try a different search term.
             </p>
           </CardContent>
         </Card>
